@@ -78,4 +78,30 @@
 <hr>
 
 Vamos con formularios
+<i>form</i> para indicar que es un formulario
+<br>
+<i>input</i> para indicar que es una entrada de datos y al atributo "type" es el tipo de dato, le podemos poner "text", "password", "email", "number", "date", "file", "submit", "reset", "button", "checkbox", "radio", "hidden", "image", "color", "range", "search", "tel", "time", "url", etc.
+<br>
+<i>label</i> para indicar que es una etiqueta para el input
+<br>
+El atributo "for" de label debe ser igual al "id" del input, "name" es otra cosita
+
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre">
+    <br>
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo">
+    <br>
+    <label for="cumple">Fecha de Nacimiento:</label>
+    <input type="date" id="cumple">
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad">
+    <br>
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena">
+</form>
+
+
 </html>
