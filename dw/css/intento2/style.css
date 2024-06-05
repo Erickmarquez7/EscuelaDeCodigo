@@ -1,0 +1,13 @@
+p {
+    color: red;
+    padding-left: 25px;
+}
+
+p#boton{
+    padding: 50px;
+    display: inline-block;
+    margin-left: 100px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+}
