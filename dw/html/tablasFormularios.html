@@ -17,15 +17,11 @@
     <br>
     Se recomienda dividir la tabla con esos elementos
     <br>
-    |------------------| <- esta sería la cabecera
+    |------------------| <code>&lt;</code>- esta sería la cabecera
     <br>
     |------------------|
     <br>
-    |------------------| <- cuerpo
-    <br>
-    |------------------|
-    <br>
-    |------------------|
+    |------------------| <code>&lt;</code>- cuerpo
     <br>
     |------------------|
     <br>
@@ -33,7 +29,11 @@
     <br>
     |------------------|
     <br>
-    |------------------| <- pie
+    |------------------|
+    <br>
+    |------------------|
+    <br>
+    |------------------| <code>&lt;</code>- pie
     <br>
     Ahora para indicar que queremos un renglón lo ponemos con <i>tr</i> y para las columnas (los datos) con <i>td</i>, a excepcion de los de la cabecera que se ponen con <i>th</i>
     
@@ -103,5 +103,43 @@ El atributo "for" de label debe ser igual al "id" del input, "name" es otra cosi
     <input type="password" id="contrasena">
 </form>
 
+<hr>
+<form>
+    <legend>Elige tus lenguajes de programación favoritos:</legend>
+    <label for="python">Python</label>
+    <input type="checkbox" id="python" name="lenguaje" value="python"><br>
 
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" id="javascript" name="lenguaje" value="javascript"><br>
+
+    <label for="java">Java</label>
+    <input type="checkbox" id="java" name="lenguaje" value="java"><br>
+
+    <label for="csharp">C#</label>
+    <input type="checkbox" id="csharp" name="lenguaje" value="csharp"><br>
+</form>
+<hr>
+<form>
+    <legend>Selecciona tu nivel de experiencia:</legend>
+    <label for="principiante">Principiante</label>
+    <input type="radio" id="principiante" name="experiencia" value="principiante"><br>
+
+    <label for="intermedio">Intermedio</label>
+    <input type="radio" id="intermedio" name="experiencia" value="intermedio"><br>
+
+    <label for="avanzado">Avanzado</label>
+    <input type="radio" id="avanzado" name="experiencia" value="avanzado"><br>
+</form>
+<hr>
+<form>
+    <legend>Ahora selecciona el pais dentro de la lista</legend>
+    <label for="pais">Pais:</label>
+    <select id="pais">
+        <option value="mexico">México</option>
+        <option value="usa">Estados Unidos</option>
+        <option value="canada">Canadá</option>
+        <option value="espana">España</option>
+        <option value="argentina">Argentina</option>
+    </select>
+</form>
 </html>
