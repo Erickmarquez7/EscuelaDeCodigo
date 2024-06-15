@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Intento 2 de CSS</title>
-        <link rel="stylesheet" href="style.css">
-    </head>    
-    <body>
-        En este intento pondremos la hoja de estilos en un archivo aparte. Y haremos referencia a el en el head de este archivo con la etiqueta link.
-        <br>
-        < link rel="stylesheet" href="estilos.css" >
-        <p>Este es un parrafo de ejemplo</p>
-        
-        Generlamente el orden de las etiquetas en el <i>CSS</i> es conforme aparecen en html
+<head>
+    <title>Intento 1 de CSS</title>
+    <style>
+        /* Comentario el estilo puede ir aca adentro*/
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        /*Esto quiere decir que todas las etiquetas con img tendrán esos atributos con esos valores*/
+        p {
+            color: red;
+        }
+        /* todas las etiquetas p tendrán el color rojo*/
+        body {
+            background-color: #ffffff;
+        }        
+        /* se sobreescribe el color*/
 
-        <br>
-        Algunas etiquetas de CSS son:
-        <ul>
-            <li>background-color: Es el color del fondo</li> 
-            <li>color: Es el color de la letra</li>
-            <li>font-size: Es el tamaño de la letra </li>
-            <li>font-family: Es el tipo de letra </li>
-            <li>text-align: Es la alineación del texto</li>
-            <li>padding: Es el espacio entre el borde y el contenido</li>
-            <li>margin: Es el espacio entre el borde y el contenedor</li>
-            <li>border: Es el borde del contenedor</li>
-            <li>width: Es el ancho del contenedor</li> 
-            <li>height: Es el alto del contenedor</li>
-            <li>list-style: El estilo de los puntos de las listas</li>
-            
-        </ul>
+        p {
+            color: blue;
+        }
 
+    </style>    
+</head>
+<body>
+    La sintaxis es 
+    <br>
+    etiqueta #id .class :pseudoclase{
         <br>
-        Podemos agrupar los estilos mediante clases o id's. Las clases se definen con un punto (.) y los id's con un gato (#)
+        &nbsp;&nbsp;&nbsp;&nbsp;propiedad: valor;
         <br>
-        El padding es el espacio entre el borde y el contenido, algo así como una "sangría"
+        &nbsp;&nbsp;&nbsp;&nbsp;propiedad: valor;
         <br>
-        <p>Por ejemplo puede ser que queramos que todos los parrafos tengan un margen de 10px, entonces definimos una clase llamada "parrafo" y le asignamos el margen de 20px.</p>
-        
-        <ul>
-            <li>padding</li>
-            <li>padding-left</li>
-            <li>padding-right</li>
-            <li>padding-top</li>
-            <li>paddin-bottom</li>
-        </ul>
+    }
+    <br>
+    Así todas las etiquetas con img tendrán un tamaño de 100x100
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 
-       
-    <p id="boton">
-        Esto simula un boton
-    </p>
-    
-    </body>
 
+    <img src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg">
+
+    <br>
+
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+    <br>
+    <img src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg">
+
+    <p>Este es un parrafo</p>
+
+</body>
 </html>

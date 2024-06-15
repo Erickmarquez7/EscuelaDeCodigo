@@ -2,53 +2,29 @@
 <html>
 <head>
     <title>Intento 1 de CSS</title>
-    <style>
-        /* Comentario el estilo puede ir aca adentro*/
-        img {
-            width: 100px;
-            height: 100px;
-        }
-        /*Esto quiere decir que todas las etiquetas con img tendrán esos atributos con esos valores*/
-        p {
-            color: red;
-        }
-        /* todas las etiquetas p tendrán el color rojo*/
-        body {
-            background-color: #ffffff;
-        }        
-        /* se sobreescribe el color*/
-
-        p {
-            color: blue;
-        }
-
-    </style>    
 </head>
 <body>
-    La sintaxis es 
+    <h1>Intento 1 de CSS</h1>
+    Este es un intento de CSS donde el estilo se define en la propia etiqueta.
+    <p style="color: red;">Este texto es rojo.</p>
+    <p style="color: blue;">Este texto es azul.</p>
+    <p style="color: green;">Este texto es verde.</p>
+
+    Otro ejemplo
+    <p style="color: red; font-size: 20px;">Este texto es rojo y de tamaño 20px.</p>
+    <p style="color: blue; font-size: 30px;">Este texto es azul y de tamaño 30px.</p>
+
+    Más ejemplos
+    <p style="color: red; font-size: 20px; font-family: Arial; align-content: center;">Este texto es rojo, de tamaño 20px y con fuente Arial.</p>
+    <p style="color: blue; font-size: 30px; font-family: Verdana;">Este texto es azul, de tamaño 30px y con fuente Verdana.</p>
+
+    Modificacion del footer
+    <footer style="color: red; font-size: 20px; font-family: Arial; text-align: center;">Este texto es rojo, de tamaño 20px y con fuente Arial.
     <br>
-    etiqueta #id .class :pseudoclase{
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;propiedad: valor;
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;propiedad: valor;
-        <br>
-    }
-    <br>
-    Así todas las etiquetas con img tendrán un tamaño de 100x100
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    Notemos que este texto es el footer
+    </footer>
 
-
-    <img src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg">
-
-    <br>
-
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-
-    <br>
-    <img src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg">
-
-    <p>Este es un parrafo</p>
-
-</body>
+    Esto no es muy conveniente, ya que si queremos cambiar el estilo de todos los elementos, tendríamos que cambiar cada uno de ellos.
+    Por lo cual los agrupamos en contenido de estilo. <i>style</i>
+    Ya sea interno con la etiqueta <i>style</i> o externo con un archivo .css
 </html>
