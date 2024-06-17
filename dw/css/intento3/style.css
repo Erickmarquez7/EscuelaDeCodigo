@@ -3,6 +3,7 @@ p {
     padding-left: 25px;
 }
 
+/*poner este ejemplo en clase para que sea mas claro*/
 p#boton{
     padding: 15px;
     display: inline-block;
@@ -10,4 +11,23 @@ p#boton{
     color: white;
     background-color: gray;
     border-radius: 20px;
+}
+
+img {
+    background-color: rgb(78, 67, 76);
+    max-width: 30%;
+    height: auto;
+    /*display: block;*/
+    /*margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/*otro ejemplo*/
+p#caja {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    background-color: saddlebrown;
+    border: 2px solid black;
+    margin: 50px;
+    outline: 10px solid #e1aac8; /* Color del margen */
 }

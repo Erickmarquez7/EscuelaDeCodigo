@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Intento 2 de CSS</title>
+        <title>Intento 3 de CSS</title>
         <link rel="stylesheet" href="style.css">
     </head>    
     <body>
@@ -30,10 +30,8 @@
         </ul>
 
         <br>
-        Podemos agrupar los estilos mediante clases o id's. Las clases se definen con un punto (.) y los id's con un gato (#)
-        <br>
         El padding es el espacio entre el borde y el contenido, algo así como una "sangría"
-        <br>
+        
         <p>Por ejemplo puede ser que queramos que todos los parrafos tengan un margen de 10px, entonces definimos una clase llamada "parrafo" y le asignamos el margen de 20px.</p>
         
         <ul>
@@ -48,7 +46,35 @@
     <p id="boton">
         Esto simula un boton
     </p>
+
+    <br>
     
+    El modelo de caja es el siguiente
+
+    <br>
+
+    <img src="modelo-caja.png" alt="modelo de caja" id="modelo-caja">
+
+    <br>
+
+    Al momento de definir el padding, margin y border, se debe de tener en cuenta que el ancho y alto del contenedor se verán afectados.
+    <br>    
+    <br>
+    #boton{
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;padding: 10px; todos los lados tendrán 10px de padding
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;padding: 10px 50px; el primer valor es el padding de arriba y abajo, el segundo es el padding de los lados
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;padding: 10px 20px 12px 50px; el primer valor es el padding de arriba, el segundo es el padding de la derecha, el tercero es el padding de abajo y el cuarto es el padding de la izquierda
+        <br>
+    }
+    <br>
+
+    <p id="caja">
+        Esto simula una caja
+    </p>
+
     </body>
 
 </html>

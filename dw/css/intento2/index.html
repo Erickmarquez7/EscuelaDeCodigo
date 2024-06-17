@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Intento 1 de CSS</title>
+    <title>Intento 2 de CSS</title>
     <style>
+        /*Generalmente el orden de css se pone conforme aparecen en el html*/
+        body {
+            background-color: #ffffff;
+        }
+
         /* Comentario el estilo puede ir aca adentro*/
+        /*Esto quiere decir que todas las etiquetas con img tendrán esos atributos con esos valores*/
         img {
             width: 100px;
             height: 100px;
         }
-        /*Esto quiere decir que todas las etiquetas con img tendrán esos atributos con esos valores*/
+
+        /* todas las etiquetas p tendrán el color rojo*/
         p {
             color: red;
         }
-        /* todas las etiquetas p tendrán el color rojo*/
-        body {
-            background-color: #ffffff;
-        }        
-        /* se sobreescribe el color*/
 
+        /* se sobreescribe el color*/
         p {
             color: blue;
         }
@@ -25,6 +28,8 @@
     </style>    
 </head>
 <body>
+    En este intento pondremos el style en el head con la etiqueta <i>style</i>
+
     La sintaxis es 
     <br>
     etiqueta #id .class :pseudoclase{
